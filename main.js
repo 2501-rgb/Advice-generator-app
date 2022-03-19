@@ -31,8 +31,8 @@ randomQuoteBtn.addEventListener("click", function () {
 //Onresize function to change divider Img on mobile screen size
 window.onresize = function () {
   if (window.innerWidth < 375) {
-    dividerImg.src = "/assets/pattern-divider-mobile.svg";
+    dividerImg.src = "assets/pattern-divider-mobile.svg";
   } else {
-    dividerImg.src = "/assets/pattern-divider-desktop.svg";
+    dividerImg.src = "assets/pattern-divider-desktop.svg";
   }
 };
