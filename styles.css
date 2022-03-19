@@ -31,6 +31,7 @@ body {
 main {
   width: 100vw;
   height: 100vh;
+  flex-direction: column;
   background-color: var(--dark-blue);
   display: flex;
   align-items: center;
@@ -97,4 +98,14 @@ main {
 
 .dice__container:hover {
   transform: scale(1.25) rotate(135deg);
+}
+
+.credits {
+  margin-top: 5rem;
+  font-size: 0.75rem;
+}
+
+.credits a {
+  text-decoration: none;
+  color: var(--accent-color);
 }
