@@ -1,0 +1,46 @@
+:root {
+  /* ==== main colors ==== */
+  --primary-color: hsl(193, 38%, 86%);
+  --accent-color: hsl(150, 100%, 66%);
+
+  /* ==== neutral colors ==== */
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+
+  /* ==== breakpoints ==== */
+  --mobile-breakpoint: 375px;
+  --desktop-breakpoint: 1440px;
+}
+
+/*custom font */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 28px;
+  font-family: "Manrope", sans-serif;
+  color: var(--primary-color);
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__container {
+  background-color: var(--dark-grayish-blue);
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+  max-width: 30%;
+}
