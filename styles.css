@@ -48,7 +48,7 @@ main {
   gap: 2rem;
   margin: 0 2rem;
   transition: transform 0.3s ease;
-  width: clamp(400px, 30vw, 100%);
+  width: clamp(350px, 30vw, 100%);
   position: relative;
   box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.12);
 }
