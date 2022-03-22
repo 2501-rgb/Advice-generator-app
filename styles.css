@@ -1,3 +1,6 @@
+/*custom font */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
 :root {
   /* ==== main colors ==== */
   --primary-color: hsl(193, 38%, 86%);
@@ -12,9 +15,6 @@
   --mobile-breakpoint: 375px;
   --desktop-breakpoint: 1440px;
 }
-
-/*custom font */
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
 
 * {
   box-sizing: border-box;
